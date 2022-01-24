@@ -39,7 +39,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border: 2px inset yellowgreen;
-  width: 30%;
+  width: 60%;
   height: 30%;
   border-radius: 10px;
   text-align: center;
@@ -54,7 +54,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border: 2px inset yellowgreen;
-  width: 30%;
+  width: 60%;
   height: 30%;
   border-radius: 10px;
   text-align: center;
@@ -168,5 +168,13 @@ input[type="text"] {
 @media (max-width:600px){
   #add-task-name{
     display: none;
+  }
+  #task-input-container{
+    width: 90%;
+    left: 50%;
+  }
+  #minitask-input-container{
+    width: 90%;
+    left: 50%;
   }
 }
